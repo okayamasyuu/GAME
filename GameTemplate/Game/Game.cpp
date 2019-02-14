@@ -1,9 +1,11 @@
 #include "stdafx.h"
 #include "Game.h"
 #include "tkEngine/light/tkDirectionLight.h"
+#include "hoge.h"
 
 Game::Game()
 {
+	NewGO<hoge>(0, "ho");
 }
 
 
